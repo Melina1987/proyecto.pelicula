@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse - CodoFlix </title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/6ab494badb.js" crossorigin="anonymous"></script>
+    <link  rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <header>
+ <nav><!--etiqueta navegacion  --> 
+ <img src ="../assets/img/logo.640.png" alt= "logo CodoFlix "width ="100">
+<ul>
+    <li>
+        <a href="">Tendencia </a>
+      </li>
+    <li>
+        <a href="./registrarse.html">Registrate</a>
+         </li>
+    <li >
+        <a href="">iniciar Sesion</a>
+         </li>
+          <!--<li >
+           <a href="https://www.google.com/">Google</a>
+             </li>-->
+   
+</ul>
+ </nav>
+
+    </header> 
+    <main>
+        <!-- titulos
+        <h1> Registrarse</h1>
+        <h2> subtitulo </h2>
+        <h3> subtitulo </h3>
+        <h4> subtitulo </h4>
+        <h5> subtitulo </h5>
+        <h6> subtitulo </h6>
+        <p> subtitulo </p>
+--> 
+
+<h1> Registro </h1>
+<form action ="validar.php" method="post">
+    <div>   
+    <label for ="name">Ingrese su nombre: </label>
+    <input type ="text"name ="nombre" id="name" placeholder ="Nombre" required >
+    </div>
+    <div>
+    <label for ="apellido">Ingrese su apellido: </label>
+    <input type ="text"name ="apellido " id="apellido" placeholder ="Apellido" required >
+    </div>
+    <div>
+    <label for ="email">Ingrese su email: </label>
+    <input type ="email"name ="email " id="email" placeholder ="Email" required >
+    </div>
+    <div>
+    <label for ="password">Ingrese su Contraseña: </label>
+    <input type ="password"name ="password " id="password" placeholder ="Contraseña" required >
+    </div>
+    <div>
+    <label for ="">Ingrese su fecha de nacimiento: </label>
+    <input type= "date" name="nacimiento" id="nacimiento">
+    </div>
+    <div>
+        <label for ="">Ingrese Pais:</label>
+        <select name =" pais" id="pais">
+            <option value ="Argentina"select> Argentina </option>
+            <option value ="Bolivia">Bolivia</option>
+            <option value ="Colombia"> Colombia </option>
+            <option value ="Uruguay"> Uruguay </option>
+            <option value ="Venezuela"> Venezuela </option>
+            <option value ="Chile"> Chile </option>
+       
+</select>    
+</div>
+
+<div>
+    <input type="checkbox" value="1"name="terminos">
+    <label for="terminos" >Acepto terminos y condiciones</label>
+</div>
+
+<div>
+    <input type="reset"value="Restablecer">
+    <input type="submit"value="Registrarme" >
+</div>
+
+</form>
+
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+</html> 
+ 

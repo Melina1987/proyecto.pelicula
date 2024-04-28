@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodoFlix - peliculas </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6ab494badb.js" crossorigin="anonymous"></script>
+    <!-- estilo de css-->
+    <link  rel="stylesheet" href="../proyecto_pelicula/css/style.css">
+    <!-- interna -->
+</head>
+<body>
+<header class="header">
+ <nav><!--etiqueta navegacion  --> 
+    <a href="../proyecto_pelicula/index.html">
+    <img src ="./assets/img/logo.640.png" alt= "logo CodoFlix "width="100" loading="lazy">
+        
+</a>
+<ul>
+    
+    <li ><a href="#tendencia">Tendencia </a></li>      
+    <li ><a href="./pages/registrarse.html">Registrarse</a></li>         
+    <li ><a href="./pages/iniciosesion.html">iniciar Sesion</a> </li>
+        
+        <!-- <li >
+            <a href="https://www.google.com/" target=" _blank">Google</a>
+             </li>-->
+   
+</ul>
+</nav>
+
+    </header> 
+    <main>
+   <section class="sectiontitulos">
+    <div class="contenedortitulos">
+    <h1>Peliculas y series ilimitadas<br> en un solo lugar</h1>
+    <h2 >Disfruta donde quieras </h2>
+    <h2> Cancela en cualquier momento </h2>
+    <a href ="./pages/registrarse.html">Registrate </a>
+</div>
+   </section>
+
+   <section >
+    <h2 > ¿Qué estas buscando para ver? </h2>
+    <form >
+        <input type="text" placeholder=" Buscar"id="buscar"name="buscar" required >
+        <input type="submit" value="buscar" id="buscar" name="buscar">
+    </form>
+    <hr>
+   </section>
+
+    <section class="peliculastendencia" id="tendencia">
+        <h2> Las tendencias de hoy</h2>
+            <div class="galeriatendencia">
+                <div>
+                    <a href="./pages/detalle.html"> <img src="./assets/img/peli_4.jpg" alt="Wonka"></a>
+                    <h2>Wonka</h2>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img src="./assets/img/peli_5.jpg" alt="Aquaman"></a>
+                    <h2>Aquaman</h2>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img src="./assets/img/peli_6.jpg" alt="Migration"></a>
+                    <h2>Migration</h2>
+                </div>
+                <div>
+                    <a href="./pages/detalle.html"><img src="./assets/img/peli_8.jpg" alt="Wish"></a>
+                    <h2>Wish</h2>
+                </div>
+            </div>
+            <button>Anterior</button>
+            <button>Proximo</button>
+    </section>
+   <hr>
+   <section class="peliculasaclamadas">
+    <h2> Las más aclamadas</h2>
+    <div class="galeriaaclamadas">
+    <div>
+      <img src="./assets/img/aclamada_1.jpg" alt="">
+      </div>
+      <div>
+      <img src="./assets/img/aclamada_2.jpg" alt="">
+      </div>
+      <div>
+     <img src="./assets/img/aclamada_3.jpg" alt="">  
+      </div>
+     </section>
+</main>
+    <footer>
+    <nav>
+        <ul>
+            <li><a href="#">Terminos y condiciones</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Ayuda</a></li>
+            <li><a href="#">Administrador peliculas</a></li>
+        </ul>
+    </nav>
+    <a href="#principal">
+        <i class="fa-regular fa-circle-up"></i>
+    </a>
+<p>
+    Todos los derechos reservados 
+</p>
+    </footer>
+    
+</body>
+</html> 
+ 
