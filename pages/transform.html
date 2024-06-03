@@ -16,9 +16,25 @@
             height: 200px;
             border: 1px solid black;
             background-color: palevioletred;
+            text-align: center;
             font-size: 2rem;
+            transform: translate(300px,100px);
+            transform: translate(300px,200px) scale(1);
+            transform: translate(300px,200px)rotate(90deg)   scale(1.5);
+            transform: translate(300px,200px) rotate(90deg)  scale(1.5)  skew(30deg, 30deg);
+            transform: translate(300px,200px);
+           transition: all 3s ease-in-out;
+           &:hover{
+            transform: translate(300px,200px) scale(2);
+            background-color:blueviolet;
+            }
+
+
         }
-        
+       /* .box:hover {
+            transform: translate(300px,200px) scale(2)
+        };*/
+
     </style>
  </head>
  <body>
